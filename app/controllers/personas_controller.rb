@@ -1,7 +1,7 @@
 class PersonasController < ApplicationController
   # GET /personas
   # GET /personas.xml
-  def index  
+  def index
     @personas = Persona.all
 
     respond_to do |format|
